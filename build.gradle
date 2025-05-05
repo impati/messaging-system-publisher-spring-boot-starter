@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.example'
-version = '1.0.6'
+version = '1.0.7'
 
 java {
     sourceCompatibility = JavaVersion.VERSION_17
@@ -26,8 +26,8 @@ repositories {
 dependencies {
     annotationProcessor "org.springframework.boot:spring-boot-autoconfigure-processor"
 
-    api("com.github.impati:messaging-system-publisher:1.1.6")
-    api("com.github.impati:messaging-system-publisher-spring-boot-autoconfigure:1.0.6")
+    api("com.github.impati:messaging-system-publisher:1.1.7")
+    api("com.github.impati:messaging-system-publisher-spring-boot-autoconfigure:1.0.7")
 }
 
 publishing {
